@@ -1,6 +1,6 @@
 "use client";
 import { useQuery } from "@tanstack/react-query";
-import { getProducts } from "../services/productServices";
+import { getProducts } from "@/features/products/services/productServices";
 
 const useProducts = () => {
   const { data: products, isLoading: productsLoading } = useQuery({

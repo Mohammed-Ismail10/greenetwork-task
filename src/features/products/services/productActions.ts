@@ -1,4 +1,4 @@
-'use server';
+"use server";
 
 // delete product
 export const deleteProduct = async (id: number) => {

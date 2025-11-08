@@ -1,8 +1,8 @@
 "use client";
 import useProducts from "@/features/products/hooks/useProducts";
-import ProductCard from "../../card/ProductCard";
+import ProductCard from "@/features/products/components/card/ProductCard";
 import { Product } from "@/features/products/types/product";
-import { SkeletonCard } from "../../card/SkeletonCard";
+import { SkeletonCard } from "@/features/products/components/card/SkeletonCard";
 
 interface ProductsProps {
   searchResults: Product[];

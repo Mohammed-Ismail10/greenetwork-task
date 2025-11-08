@@ -7,7 +7,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Product } from "../../types/product";
+import { Product } from "@/features/products/types/product";
 import Image from "next/image";
 import Link from "next/link";
 

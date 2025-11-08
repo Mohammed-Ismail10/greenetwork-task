@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { searchProduct } from "../services/productServices";
+import { searchProduct } from "@/features/products/services/productServices";
 
 const useSearchProduct = () => {
   const [searchResults, setSearchResults] = useState([]);

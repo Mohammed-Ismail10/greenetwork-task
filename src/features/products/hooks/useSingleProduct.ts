@@ -1,5 +1,5 @@
 import { useQuery } from "@tanstack/react-query";
-import { getSingleProduct } from "../services/productServices";
+import { getSingleProduct } from "@/features/products/services/productServices";
 
 const useSingleProduct = (id: number) => {
   const { data: singleProduct, isLoading: singleProductLoading } = useQuery({

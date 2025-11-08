@@ -1,6 +1,6 @@
 import { useRouter } from "next/navigation";
 import { toast } from "sonner";
-import { deleteProduct } from "../services/productActions";
+import { deleteProduct } from "@/features/products/services/productActions";
 
 const useDeleteProduct = () => {
   const router = useRouter();
