@@ -13,7 +13,7 @@ import Link from "next/link";
 
 const ProductCard = ({ product }: { product: Product }) => {
   return (
-    <Link href={`/${product.id}`}>
+    <Link href={`/product/${product.id}`}>
       <Card className="shadow-lg">
         <CardHeader className="flex justify-between items-center">
           <CardTitle>{product.title}</CardTitle>
